@@ -1,0 +1,100 @@
+.wrap {
+  font-family: 'Asap';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Asap Regular'), local('Asap-Regular'), url(http://fonts.gstatic.com/s/asap/v5/d_2oOOkhE5_uQ6s6D0T62A.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+
+*, *:before, *:after {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font-size: 100%;
+}
+
+.maintabs: p {
+  font-size: 18px;
+  line-height: 1.750em;
+}
+
+.maintabs: ul li, ol li {
+  margin: 10px 0px 10px 40px;
+  font-size: 0.933em;
+  line-height: 1.650em;
+}
+
+.maintabs a {
+  color: #3C8FC7;
+  text-decoration: none;
+}
+
+.maintabs a:hover {
+  text-decoration: underline;
+}
+
+.maintabs {
+  max-width: 1000px;
+  width: 90%;
+  margin: 0px auto;
+}
+
+.site-header-wrap {
+	margin-bottom:0px;
+	border-bottom:1px solid #53a0dc;
+}
+
+.tabs {
+	width:100%;
+	display:inline-block;
+}
+
+.tab-links:after {
+	display:block;
+	clear:both;
+	content:'';
+}
+
+.tab-links li {
+	margin:0px 5px;
+	float:left;
+	list-style:none;
+}
+
+.tab-links a {
+	padding:9px 15px;
+	display:inline-block;
+	border-radius:3px 3px 0px 0px;
+	background:#7FB5DA;
+	font-size:16px;
+	font-weight:600;
+	color:#4c4c4c;
+	transition:all linear 0.15s;
+}
+
+.tab-links a:hover {
+	background:#a7cce5;
+	text-decoration:none;
+}
+
+li.active a, li.active a:hover {
+	background:#FF33F9;
+	color:#4c4c4c;
+}
+
+/*----- Content of Tabs -----*/
+.tab-content {
+	padding:15px;
+	border-radius:3px;
+	box-shadow:-1px 1px 1px rgba(0,0,0,0.15);
+	background:#fff;
+}
+
+.tab {
+	display:none;
+}
+
+.tab.active {
+	display:block;
+}
+

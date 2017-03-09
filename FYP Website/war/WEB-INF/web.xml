@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://java.sun.com/xml/ns/javaee"
+xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+	<servlet>
+		<servlet-name>Final_Year_Project</servlet-name>
+		<servlet-class>com.example.myproject.Final_Year_ProjectServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>InsertData</servlet-name>
+		<servlet-class>com.example.myproject.InsertData</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>InsertContextData</servlet-name>
+		<servlet-class>com.example.myproject.InsertContextData</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>InsertMappingsData</servlet-name>
+		<servlet-class>com.example.myproject.InsertMappingsData</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>InsertAllLibraries</servlet-name>
+		<servlet-class>com.example.myproject.InsertAllLibraries</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>InsertLibraryMappings</servlet-name>
+		<servlet-class>com.example.myproject.InsertLibraryMappings</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>DeleteData</servlet-name>
+		<servlet-class>com.example.myproject.DeleteData</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Final_Year_Project</servlet-name>
+		<url-pattern>/final_year_project</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>InsertData</servlet-name>
+		<url-pattern>/InsertData</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>InsertContextData</servlet-name>
+		<url-pattern>/InsertContextData</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>InsertMappingsData</servlet-name>
+		<url-pattern>/InsertMappingsData</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>InsertAllLibraries</servlet-name>
+		<url-pattern>/InsertAllLibraries</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>InsertLibraryMappings</servlet-name>
+		<url-pattern>/InsertLibraryMappings</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DeleteData</servlet-name>
+		<url-pattern>/DeleteData</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+
+</web-app>
